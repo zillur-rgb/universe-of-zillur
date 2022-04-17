@@ -3,7 +3,7 @@ import AllPages from "./Pages/AllPages/AllPages";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <AllPages />
     </div>
   );
