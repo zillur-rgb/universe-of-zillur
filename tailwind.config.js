@@ -14,6 +14,10 @@ module.exports = {
         yellow: "#F7FD04",
         text: "#E7E7DE",
         white: "#f1f1f1",
+        lynch: "#6c7a89",
+      },
+      backgroundImage: {
+        "bg-image": "url('/assets/imgs/bg.jpg')",
       },
       fontFamily: {
         amiri: ["Amiri", ...defaultTheme.fontFamily.sans],

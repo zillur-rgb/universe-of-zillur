@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <div className="lg:h-full h-auto">
       <Navbar />
-      <div className="h-5/6 flex items-center justify-center">
+      <div className="h-5/6 flex items-center justify-center my-6">
         <main className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">
           <div className="left lg:text-left text-center">
             <h1 className="title uppercase text-3xl lg:text-7xl font-amiri font-bold text-text">
@@ -39,7 +39,7 @@ export default function Home() {
                 );
               })}
             </h1>
-            <p className="text-yellow text-md lg:text-2xl mt-4 tracking-widest">
+            <div className="text-yellow text-md lg:text-2xl mt-4 tracking-widest">
               <TypewriterComponent
                 options={{
                   strings: [
@@ -53,13 +53,13 @@ export default function Home() {
                   delay: 100,
                 }}
               />
-            </p>
+            </div>
           </div>
-          <div className="right border-none lg:border-2 rounded-tr-90 rounded-bl-90 hover:rounded-tl-90 hover:rounded-br-90 hover:rounded-tr-none hover:duration-500 hover:rounded-bl-none lg:w-2/5 w-2/5 flex items-center justify-center py-0 lg:py-5">
+          <div className=" mt-4 right border-none lg:border-2 rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90 hover:rounded-tr-none hover:duration-500 hover:rounded-bl-none lg:w-2/5 w-2/5 flex items-center justify-center py-0 lg:py-5 mb-6">
             <Image
               src={selfPic}
               alt="selfPic"
-              className="rounded-tr-90 rounded-bl-90 hover:rounded-tl-90 hover:rounded-br-90 hover:duration-500 hover:rounded-tr-none hover:rounded-bl-none"
+              className=" rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90  hover:duration-500 hover:rounded-tr-none hover:rounded-bl-none"
             />
           </div>
         </main>
