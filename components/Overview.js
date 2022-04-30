@@ -3,7 +3,7 @@ import React from "react";
 const Overview = () => {
   return (
     <div className="w-full">
-      <p className="text-lynch leading-7 my-6">
+      <p className="text-lynch leading-7 my-4">
         My name is MD Zillur Rahman and I am an ambitious Frontend Developer and
         an User Interface Designer based on Dortmund, Germany.
       </p>

@@ -15,8 +15,8 @@ const about = () => {
       <Navbar />
       <div className="h-5/6 flex items-center justify-between">
         <div className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">
-          <div className="left w-1/2">
-            <h1 className="text-yellow text-7xl font-amiri font-bold mb-10">
+          <div className="left w-full lg:w-1/2">
+            <h1 className="text-yellow text-4xl md:text-left text-center md:text-7xl font-amiri font-bold mb-10">
               About Me
             </h1>
             <div className="btns flex items-center justify-between text-center my-4 border border-lynch rounded-md">
@@ -64,7 +64,7 @@ const about = () => {
             {education && <Education />}
             {experience && <Experience />}
           </div>
-          <div className="right w-2/5">
+          <div className="right w-full my-4 lg:w-2/5">
             <Skills />
           </div>
         </div>
