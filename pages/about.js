@@ -1,8 +1,10 @@
 import { useState } from "react";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
+import FrontendCard from "../components/Skills";
 import Navbar from "../components/Navbar";
 import Overview from "../components/Overview";
+import Skills from "../components/Skills";
 
 const about = () => {
   const [overview, setOverview] = useState(true);
@@ -62,7 +64,9 @@ const about = () => {
             {education && <Education />}
             {experience && <Experience />}
           </div>
-          <div className="right">My Skills</div>
+          <div className="right w-2/5">
+            <Skills />
+          </div>
         </div>
       </div>
     </div>
