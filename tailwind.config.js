@@ -25,6 +25,10 @@ module.exports = {
       fontSize: {
         3.5: "28px",
       },
+
+      borderRadius: {
+        90: "90px",
+      },
     },
   },
   plugins: [],
