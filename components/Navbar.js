@@ -48,8 +48,12 @@ const Navbar = () => {
             <a href="https://github.com/zillur-rgb" target="_blank">
               <FaGithubSquare className="text-white text-3xl hover:opacity-80 cursor-pointer mx-2" />
             </a>
-            <FaLinkedin className="text-white text-3.5 hover:opacity-80 cursor-pointer mx-2" />
-            <FaDribbbleSquare className="text-white text-3.5 hover:opacity-80 cursor-pointer mx-2" />
+            <a href="https://www.linkedin.com/in/zillur-rgb/" target="_blank">
+              <FaLinkedin className="text-white text-3.5 hover:opacity-80 cursor-pointer mx-2" />
+            </a>
+            <a href="https://dribbble.com/zillur-rgb" target="_blank">
+              <FaDribbbleSquare className="text-white text-3.5 hover:opacity-80 cursor-pointer mx-2" />
+            </a>
           </div>
           <div className="hamburger block lg:hidden">
             <HiMenuAlt4
@@ -75,8 +79,13 @@ const Navbar = () => {
             <a href="https://github.com/zillur-rgb" target="_blank">
               <FaGithubSquare className="text-white text-3xl hover:opacity-80 cursor-pointer mx-2" />
             </a>
-            <FaLinkedin className="text-white text-3.5 hover:opacity-80 cursor-pointer mx-2" />
-            <FaDribbbleSquare className="text-white text-3.5 hover:opacity-80 cursor-pointer mx-2" />
+            <a href="https://www.linkedin.com/in/zillur-rgb/" target="_blank">
+              <FaLinkedin className="text-white text-3.5 hover:opacity-80 cursor-pointer mx-2" />
+            </a>
+            <a href="https://dribbble.com/zillur-rgb" target="_blank">
+              {" "}
+              <FaDribbbleSquare className="text-white text-3.5 hover:opacity-80 cursor-pointer mx-2" />
+            </a>
           </div>
         </div>
       )}

@@ -2,7 +2,7 @@ import React from "react";
 
 const Form = () => {
   return (
-    <form className="w-3/5">
+    <form className="md:w-3/5 w-full">
       <input
         type="text"
         placeholder="Fullname"

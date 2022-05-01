@@ -11,7 +11,7 @@ const contact = () => {
             <h1 className="text-yellow mt-8 text-4xl md:text-left text-center md:text-7xl font-amiri font-bold mb-4">
               Contact Me
             </h1>
-            <p className="w-3/5 text-lynch mb-4">
+            <p className="md:w-3/5 w-full text-center md:text-left text-lynch mb-4">
               I am looking for a job opportunity to utilize my skills. I am a
               fast learner and I am ready to relocate. Beside, I am a team
               player and most importantly I am self motivated. If you have any

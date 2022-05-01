@@ -24,15 +24,15 @@ export default function Home() {
   ];
   return (
     <div className="lg:h-full h-auto bg-bg">
-      <Resume />
+      {/* <Resume /> */}
       <Navbar />
       <div className="h-4/5 flex items-center justify-center my-6">
         <main className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">
           <div className="left lg:text-left text-center">
-            <h1 className="title uppercase text-3xl lg:text-7xl font-amiri font-bold text-text">
+            <h1 className="title uppercase text-3xl lg:text-7xl font-amiri font-bold text-text animate__animated animate__fadeInLeft animate__delay-0.2s">
               hello!
             </h1>
-            <h1 className="title text-3xl lg:text-7xl font-amiri font-bold text-text">
+            <h1 className="title text-3xl lg:text-7xl font-amiri font-bold text-text  animate__animated animate__fadeInLeft animate__delay-0.3s">
               {headerText.map((txt, idx) => {
                 return (
                   <span key={idx} className="hover:text-yellow">
@@ -61,7 +61,7 @@ export default function Home() {
             <Image
               src={selfPic}
               alt="selfPic"
-              className=" rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90  hover:duration-500 hover:rounded-tr-none hover:rounded-bl-none"
+              className=" rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90  hover:duration-500 hover:rounded-tr-none hover:rounded-bl-none animate__animated animate__fadeInRight delay-150"
             />
           </div>
         </main>
