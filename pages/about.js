@@ -11,12 +11,12 @@ const about = () => {
   const [education, setEducation] = useState(false);
   const [experience, setExperience] = useState(false);
   return (
-    <div className="lg:h-full h-auto">
+    <div className="lg:h-full h-auto bg-bg">
       <Navbar />
       <div className="h-5/6 flex items-center justify-between">
         <div className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">
           <div className="left w-full lg:w-1/2">
-            <h1 className="text-yellow text-4xl md:text-left text-center md:text-7xl font-amiri font-bold mb-10">
+            <h1 className="text-yellow mt-8 text-4xl md:text-left text-center md:text-7xl font-amiri font-bold mb-10">
               About Me
             </h1>
             <div className="btns flex items-center justify-between text-center my-4 border border-lynch rounded-md">

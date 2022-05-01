@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div>
       <div className="pt-4 pb-6 border-b border-secondary">
-        <p className="text-white">BA in Business Informatics</p>
+        <p className="text-white font-bold">BA in Business Informatics</p>
         <p className="text-sm text-text font-light">
           Fachhochschule Südwestfalen
         </p>
@@ -15,7 +15,9 @@ const Education = () => {
         </p>
       </div>
       <div className="pt-4 pb-6 border-b border-secondary">
-        <p className="text-white">B.Sc. in Computer Science and Engineering</p>
+        <p className="text-white font-bold">
+          B.Sc. in Computer Science and Engineering
+        </p>
         <p className="text-sm text-text font-light">
           North East University Bangladesh
         </p>

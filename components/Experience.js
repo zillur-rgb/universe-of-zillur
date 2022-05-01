@@ -6,7 +6,7 @@ const Experience = () => {
       <div className="pt-4 pb-6 border-b border-secondary">
         <div className="title flex items-center justify-between">
           <div className="">
-            <p className="text-white">Frontend Developer Intern</p>
+            <p className="text-white font-bold">Frontend Developer Intern</p>
             <p className="text-sm text-text font-light">Dessein Lab</p>
           </div>
           <p className="text-lynch">Feb 2021 - Jun 2021</p>
@@ -20,7 +20,7 @@ const Experience = () => {
       <div className="pt-4 pb-6 border-b border-secondary">
         <div className="title flex items-center justify-between">
           <div className="">
-            <p className="text-white">User Interface Designer</p>
+            <p className="text-white font-bold">User Interface Designer</p>
             <p className="text-sm text-text font-light">Dessein Lab</p>
           </div>
           <p className="text-lynch">Mar 2019 - Feb 2021</p>
