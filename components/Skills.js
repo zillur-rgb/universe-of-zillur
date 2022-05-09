@@ -1,13 +1,14 @@
 import { BiBadgeCheck } from "react-icons/bi";
 
 const Skills = () => {
-  const frontend = [
+  const Development = [
     "JavaScript(ES7)",
     "ReactJs",
     "NextJs",
     "NodeJs",
     "ExpressJs",
     "MongoDB",
+    "Mongoose",
     "Tailwind CSS",
     "Styled Components",
     "Jest",
@@ -29,10 +30,10 @@ const Skills = () => {
     <div>
       <div className="p-5 mb-8 bg-secondary rounded-2xl">
         <h1 className="text-text text-xl font-nunito font-bold">
-          Frontend Technologies I have been using
+          Development Technologies I have been using
         </h1>
         <ul className="grid grid-cols-1 sm:grid-cols-2">
-          {frontend.map((front, idx) => (
+          {Development.map((front, idx) => (
             <li
               key={idx}
               className="flex items-center sm:text-left text-center"
