@@ -1,15 +1,18 @@
 import Navbar from "../components/Navbar";
+import FrontendProject from "../components/FrontendProject";
 
 const projects = () => {
   const projectsArray = [
     {
       title: "Invoice Master - A Invoice Management App",
+      image:
+        "https://i.ibb.co/wKS4zKB/6ea69d6f-cb38-4327-a5dc-50c2318b0edd.jpg",
       live: "https://invoice-master-10e23.web.app/",
       githubClient: "https://github.com/zillur-rgb/Invoice-Master-Client",
       githubServer: "https://github.com/zillur-rgb/invoice-master-server",
       techs: [
         "Figma",
-        "Balsampiq",
+        "Balsamiq",
         "ReactJS",
         "NodeJS",
         "ExpressJS",
@@ -22,12 +25,13 @@ const projects = () => {
     },
     {
       title: "Wheel Wave - Inventory Management Website",
+      image: "https://i.ibb.co/cNCT20N/Frame-12.png",
       live: "https://wheel-wave.web.app/",
       githubClient: "https://github.com/zillur-rgb/wheel-wave-client",
       githubServer: "https://github.com/zillur-rgb/wheel-wave-client",
       techs: [
         "Figma",
-        "Balsampiq",
+        "Balsamiq",
         "ReactJS",
         "NodeJS",
         "ExpressJS",
@@ -41,12 +45,13 @@ const projects = () => {
     },
     {
       title: "Flexytrips - A Website for Tour Agency.",
+      image: "https://i.ibb.co/XXHxR1j/Frame-2.png",
       live: "https://flexytrips.web.app/",
       githubClient: "https://github.com/zillur-rgb/flexytrips-client",
       githubServer: "https://github.com/zillur-rgb/flexytrips-server",
       techs: [
         "Figma",
-        "Balsampiq",
+        "Balsamiq",
         "ReactJS",
         "NodeJS",
         "ExpressJS",
@@ -60,6 +65,7 @@ const projects = () => {
     },
     {
       title: "Audiophile - A shop for Gadget Lovers",
+      image: "https://i.ibb.co/zJQvJ5t/Frame-5.png",
       live: "https://fabulous-melba-86f75b.netlify.app/",
       githubClient: "https://github.com/zillur-rgb/Audiophile",
       techs: ["ReactJS", "Tailwind CSS", "Netlify"],
@@ -67,6 +73,7 @@ const projects = () => {
     },
     {
       title: "Notes App with TypeScript.",
+      image: "https://i.ibb.co/kHR6KW5/Frame-7.png",
       live: "https://silly-kulfi-eba079.netlify.app/",
       githubClient: "https://github.com/zillur-rgb/notes-app-react-typescript",
       techs: ["ReactJS", "TypeScript", "Netlify", "Bootstrap 5"],
@@ -74,6 +81,7 @@ const projects = () => {
     },
     {
       title: "Recipe App",
+      image: "https://i.ibb.co/tpF7grM/Frame-9.png",
       live: "https://storied-starlight-7f24e7.netlify.app/",
       githubClient: "https://github.com/zillur-rgb/Recipe-App",
       techs: ["ReactJS", "Styled Components", "Netlify", "API", "Bootstrap 5"],
@@ -81,13 +89,15 @@ const projects = () => {
     },
     {
       title: "Rock Paper Scissor game",
+      image: "https://i.ibb.co/2PLqKPR/Frame-11.png",
       live: "https://zillur-rgb.github.io/rock-paper-scissor/",
       githubClient: "https://github.com/zillur-rgb/rock-paper-scissor",
       techs: ["JavaScript", "CSS"],
       desc: "This was one of projects when I was learning JavaScript. Tried to create a Rock Paper Scissor game with the capability of restarting the game when someone wins.",
     },
     {
-      title: "Recipe App",
+      title: "Resume App",
+      image: "https://i.ibb.co/tpJXmdZ/Frame-6.png",
       live: "https://effortless-medovik-dc044c.netlify.app/",
       githubClient: "https://github.com/zillur-rgb/resume-app",
       techs: ["ReactJS", "Styled Components", "Material UI"],
@@ -95,6 +105,7 @@ const projects = () => {
     },
     {
       title: "Money Master",
+      image: "https://i.ibb.co/GJmrNJ7/Frame-4.png",
       live: "https://zillur-rgb.github.io/money-master/",
       githubClient: "https://github.com/zillur-rgb/resume-app",
       techs: ["JavaScript", "Bootstrap 5"],
@@ -102,6 +113,7 @@ const projects = () => {
     },
     {
       title: "Zillflix - A Movie App",
+      image: "https://i.ibb.co/XscBSGZ/Frame-8.png",
       live: "https://delicate-stardust-b57c15.netlify.app/",
       githubClient: "https://github.com/zillur-rgb/zillflix-A-movie-app",
       techs: ["ReactJS", "Tailwind CSS", "Daisy UI", "API"],
@@ -109,10 +121,16 @@ const projects = () => {
     },
   ];
   return (
-    <div className="lg:h-full h-auto bg-bg">
+    <div className=" w-screen h-auto bg-bg">
       <Navbar />
-      <div className="w-4/5 xl:w-1170 mx-auto">
-        <h1>Hello</h1>
+      <div className="h-5/6 flex items-center justify-between my-20">
+        <div className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">
+          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+            {projectsArray.map((project) => (
+              <FrontendProject project={project} key={project.title} />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import "animate.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="h-auto lg:h-screen ">
+    <div className="h-auto lg:h-screen bg-bg">
       <Component {...pageProps} />
     </div>
   );
