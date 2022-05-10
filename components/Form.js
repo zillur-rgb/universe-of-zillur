@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 
 const Form = () => {
   const form = useRef();
+  console.log(form);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,6 +18,7 @@ const Form = () => {
       .then(
         (result) => {
           console.log(result.text);
+          console.log(form.current);
         },
         (error) => {
           console.log(error.text);

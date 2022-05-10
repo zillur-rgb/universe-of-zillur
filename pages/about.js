@@ -5,6 +5,7 @@ import FrontendCard from "../components/Skills";
 import Navbar from "../components/Navbar";
 import Overview from "../components/Overview";
 import Skills from "../components/Skills";
+import Footer from "../components/Footer";
 
 const about = () => {
   const [overview, setOverview] = useState(true);
@@ -69,6 +70,7 @@ const about = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

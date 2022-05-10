@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import selfPic from "../assets/imgs/self.svg";
 import TypewriterComponent from "typewriter-effect";
 import Resume from "../components/Resume";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const headerText = [
@@ -23,10 +24,10 @@ export default function Home() {
     ".",
   ];
   return (
-    <div className="lg:h-full h-auto bg-bg">
+    <div className=" h-full bg-bg relative">
       {/* <Resume /> */}
       <Navbar />
-      <div className="h-4/5 flex items-center justify-center my-6">
+      <div className="h-3/4 flex items-center justify-center my-6">
         <main className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">
           <div className="left lg:text-left text-center">
             <h1 className="title uppercase text-3xl lg:text-7xl font-amiri font-bold text-text animate__animated animate__fadeInLeft delay-1000">
@@ -66,6 +67,7 @@ export default function Home() {
           </div>
         </main>
       </div>
+      <Footer />
     </div>
   );
 }
