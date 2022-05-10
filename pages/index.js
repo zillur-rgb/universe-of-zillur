@@ -29,7 +29,7 @@ export default function Home() {
       <div className="h-4/5 flex items-center justify-center my-6">
         <main className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">
           <div className="left lg:text-left text-center">
-            <h1 className="title uppercase text-3xl lg:text-7xl font-amiri font-bold text-text animate__animated animate__fadeInLeft animate__delay-0.2s">
+            <h1 className="title uppercase text-3xl lg:text-7xl font-amiri font-bold text-text animate__animated animate__fadeInLeft delay-1000">
               hello!
             </h1>
             <h1 className="title text-3xl lg:text-7xl font-amiri font-bold text-text  animate__animated animate__fadeInLeft animate__delay-0.3s">

@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar";
 import FrontendProject from "../components/FrontendProject";
+import { InfinitySpin } from "react-loader-spinner";
 
 const projects = () => {
   const projectsArray = [
@@ -132,6 +133,7 @@ const projects = () => {
           </div>
         </div>
       </div>
+      <InfinitySpin color="grey" />
     </div>
   );
 };
