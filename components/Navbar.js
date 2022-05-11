@@ -24,6 +24,10 @@ const Navbar = () => {
       name: "Contact",
       url: "/contact",
     },
+    {
+      name: "Skills",
+      url: "/skills",
+    },
   ];
   return (
     <div className="w-screen bg-secondary  border-b-2 border-bg">

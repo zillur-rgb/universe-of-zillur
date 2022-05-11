@@ -51,9 +51,11 @@ const about = () => {
                   Education
                 </h1>
                 <h1
-                  className={`w-full py-6 px-3 cursor-pointer border-lynch hover:text-text  whitespace-nowrap ${
-                    experience ? "border-b-2 border-yellow" : "border-secondary"
-                  } ${experience ? "text-yellow" : "text-lynch"}`}
+                  className={`
+              w-full py-6 px-3 cursor-pointer border-b hover:text-text  ${
+                experience ? "border-b-2 border-yellow" : "border-secondary"
+              } ${experience ? "text-yellow" : "text-lynch"}
+              `}
                   onClick={() => {
                     setOverview(false);
                     setEducation(false);
