@@ -12,7 +12,7 @@ const about = () => {
   const [education, setEducation] = useState(false);
   const [experience, setExperience] = useState(false);
   return (
-    <div className="w-screen  h-auto bg-bg">
+    <div className="w-screen h-auto flex flex-col justify-between items-center lg:h-screen bg-bg">
       <Navbar />
       <div className="h-4/5 flex items-center justify-between my-8">
         <div className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">

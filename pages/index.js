@@ -25,7 +25,7 @@ export default function Home() {
     ".",
   ];
   return (
-    <div className=" h-auto lg:h-full bg-bg relative">
+    <div className="w-screen h-auto flex flex-col justify-between items-center lg:h-screen bg-bg">
       {/* <Resume /> */}
       <Navbar />
       <div className="h-3/4 flex items-center justify-center my-8">
