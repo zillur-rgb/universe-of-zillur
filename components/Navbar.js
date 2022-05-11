@@ -17,16 +17,16 @@ const Navbar = () => {
       url: "/about",
     },
     {
+      name: "Skills",
+      url: "/skills",
+    },
+    {
       name: "Projects",
       url: "/projects",
     },
     {
       name: "Contact",
       url: "/contact",
-    },
-    {
-      name: "Skills",
-      url: "/skills",
     },
   ];
   return (

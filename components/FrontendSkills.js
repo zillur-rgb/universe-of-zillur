@@ -23,9 +23,7 @@ const FrontendSkills = () => {
         {Development.map((front, idx) => (
           <li key={idx} className="flex items-center">
             <BiBadgeCheck className="text-yellow" />
-            <p className="text-lynch p-2 my-2 text-center text-lg ml-2">
-              {front}
-            </p>
+            <p className="text-lynch p-2 my-2 text-lg ml-2">{front}</p>
           </li>
         ))}
       </ul>
