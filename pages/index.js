@@ -25,11 +25,10 @@ export default function Home() {
     ".",
   ];
   return (
-    <div className="w-screen h-auto lg:h-screen bg-bg">
-      {/* <Resume /> */}
+    <div className="w-screen h-auto lg:h-screen items-center justify-between bg-bg flex flex-col">
       <Navbar />
-      <div className="h-3/4 flex items-center justify-center my-8">
-        <main className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">
+      <div className=" w-4/5 xl:w-1170 mx-auto ">
+        <main className="my-8 flex items-center justify-between h-4/5 lg:flex-row flex-col">
           <div className="left lg:text-left text-center">
             <h1 className="title uppercase text-5xl lg:text-7xl font-amiri font-bold text-text animate__animated animate__fadeInLeft">
               hello!
@@ -76,9 +75,9 @@ export default function Home() {
         </main>
       </div>
       <Link href="mailto:zillurdeu@gmail.com" className=" flex">
-        <a className="text-yellow absolute bottom-20 right-0 md:block hidden tracking-widest hover:translate-y-1 duration-300">
+        <a className="text-white hover:text-yellow font-semibold absolute bottom-20 right-5 lg:block hidden tracking-widest hover:translate-y-1 duration-300">
           zillurdeu@gmail.com
-          <div className="border border-yellow text-lynch"></div>
+          <div className="border border-lynch hover:text-yellow text-lynch"></div>
         </a>
       </Link>
       <Footer />
