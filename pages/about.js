@@ -14,7 +14,7 @@ const about = () => {
   return (
     <div className="w-screen h-auto flex flex-col justify-between items-center lg:h-screen bg-bg">
       <Navbar />
-      <div className="h-4/5 flex items-center justify-between my-8">
+      <div className="h-4/5  flex items-center justify-center my-8">
         <div className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">
           <div className="left w-full lg:w-1/2">
             <h1 className="text-yellow mt-8 text-4xl md:text-left text-center md:text-7xl font-amiri font-bold mb-10">
@@ -69,8 +69,8 @@ const about = () => {
             <Skills />
           </div>
         </div>
+        {/* <Footer /> */}
       </div>
-      <Footer />
     </div>
   );
 };
