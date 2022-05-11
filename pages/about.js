@@ -1,10 +1,8 @@
 import { useState } from "react";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
-import FrontendCard from "../components/Skills";
 import Navbar from "../components/Navbar";
 import Overview from "../components/Overview";
-import Skills from "../components/Skills";
 import Footer from "../components/Footer";
 
 const about = () => {
