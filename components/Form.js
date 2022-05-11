@@ -26,12 +26,13 @@ const Form = () => {
       );
   };
   return (
-    <form ref={form} onSubmit={sendEmail} className="md:w-3/5 w-full">
+    <form ref={form} onSubmit={sendEmail} className="md:w-3/4 w-full mx-auto">
       <input
         type="text"
         placeholder="Fullname"
         name="user_name"
         className="px-5 py-4 rounded-lg focus:outline-yellow focus:outline focus:border-none bg-secondary w-full border-lynch border my-2 text-white"
+        required
       />
       <br />
       <input
@@ -39,6 +40,7 @@ const Form = () => {
         placeholder="Email"
         name="user_email"
         className="px-5 py-4 rounded-lg focus:outline-yellow focus:outline focus:border-none text-white bg-secondary w-full border-lynch border my-2 caret-yellow"
+        required
       />
       <br />
       <textarea
@@ -46,6 +48,7 @@ const Form = () => {
         className="px-5 py-4 rounded-lg focus:outline-yellow focus:outline focus:border-none bg-secondary w-full border-lynch text-white border my-2 caret-yellow"
         rows="10"
         placeholder="Write your message here"
+        required
       ></textarea>
       <br />
       <button

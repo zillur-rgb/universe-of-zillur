@@ -14,9 +14,9 @@ const FrontendProject = ({ project }) => {
           {project.title}
         </h1>
         <div className=" border-b my-5 border-lynch opacity-30"></div>
-        <div className="flex justify-between my-5">
+        <div className="flex justify-between flex-col sm:flex-row my-5">
           <a
-            className="py-2 px-6 rounded-lg border-2 text-white hover:text-bg font-medium hover:bg-yellow hover:border-yellow whitespace-nowrap"
+            className="py-2 px-6 rounded-lg border-2 text-center my-2 text-white hover:text-bg font-medium hover:bg-yellow hover:border-yellow whitespace-nowrap"
             href={project.githubClient}
             target="_blank"
           >
@@ -24,7 +24,7 @@ const FrontendProject = ({ project }) => {
           </a>
           {project.githubServer && (
             <a
-              className="py-2 px-4 rounded-lg border-2 text-white hover:text-bg font-medium hover:bg-yellow hover:border-yellow whitespace-nowrap"
+              className="py-2 px-4 rounded-lg border-2 text-center my-2  text-white hover:text-bg font-medium hover:bg-yellow hover:border-yellow whitespace-nowrap"
               target="_blank"
               href={project.githubServer}
             >
@@ -33,7 +33,7 @@ const FrontendProject = ({ project }) => {
           )}
 
           <a
-            className="py-2 px-4 rounded-lg border-2 text-white hover:text-bg font-medium hover:bg-yellow hover:border-yellow whitespace-nowrap"
+            className="py-2 px-4 rounded-lg border-2 text-white hover:text-bg text-center my-2  font-medium hover:bg-yellow hover:border-yellow whitespace-nowrap"
             target="_blank"
             href={project.live}
           >

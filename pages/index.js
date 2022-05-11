@@ -4,6 +4,7 @@ import selfPic from "../assets/imgs/self.svg";
 import TypewriterComponent from "typewriter-effect";
 import "../styles/Home.module.css";
 import Footer from "../components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   const headerText = [
@@ -57,9 +58,13 @@ export default function Home() {
                 }}
               />
             </div>
-            <button className="border px-4 py-3 rounded-tr-2xl hover:rounded-tr-none rounded-bl-2xl hover:rounded-bl-none hover:rounded-br-2xl hover:rounded-tl-2xl border-yellow text-yellow hover:bg-yellow hover:text-bg font-semibold duration-500 my-5  animate__animated animate__fadeInLeft">
-              Download My Resume
-            </button>
+            <Link href="https://drive.google.com/file/d/13A2fXPou96gh5AXdjiLIKPon_JyWv13b/view?usp=sharing">
+              <a target="_blank">
+                <button className="border px-4 py-3 rounded-tr-2xl hover:rounded-tr-none rounded-bl-2xl hover:rounded-bl-none hover:rounded-br-2xl hover:rounded-tl-2xl border-yellow text-yellow hover:bg-yellow hover:text-bg font-semibold duration-500 my-5  animate__animated animate__fadeInLeft">
+                  Download My Resume
+                </button>
+              </a>
+            </Link>
           </div>
           <div className=" mt-4 right border-none lg:border-2 rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90 hover:rounded-tr-none duration-500 hover:rounded-bl-none lg:w-2/5 w-4/5 flex items-center justify-center py-0 lg:py-5 mb-6">
             <Image
