@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Table of contents
 
-## Getting Started
+- [Overview](#overview)
+  - [The challenge and How it works](#The-challenge-and-How-it-works)
+  - [Links](#links)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Author](#author)
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+The task was to create my portfolio website and start learning next js.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### The challenge and How it works
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- I tried to create it so that the visitor can surf the website without much scrolling.
+- For the first time I have used NextJs and I succesfully able to complkete this though there are some stuffs that can be imporved.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Links
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Github Link: [https://github.com/zillur-rgb/universe-of-zillur](https://github.com/zillur-rgb/universe-of-zillur)
+- Live URL: [https://zillurrahman.netlify.app/](https://zillurrahman.netlify.app/)
 
-## Learn More
+### Built with
 
-To learn more about Next.js, take a look at the following resources:
+- NextJs
+- ReactJS
+- EmailJS
+- Tailwindcss
+- Nprogress
+- Animatecss
+- typewriter-effect
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### What I learned
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- I have learned the basics of NextJS.
+- I have added some external libraries.
+- First time implemented the Emailjs.
 
-## Deploy on Vercel
+## Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Dribbble - [Dribbble Link](https://dribbble.com/zillur-rgb)
+- Github- [Github Link](https://github.com/zillur-rgb)
