@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="animate__animated animate__zoomIn animate__delay-0.5s">
+    <div className="animate__animated animate__zoomIn animate__delay-0.2s border-l-none lg:border-l border-secondary px-4 lg:px-16">
       <div className="pt-4 pb-6 border-b border-secondary">
         <div className="title flex items-center justify-between">
           <div className="">

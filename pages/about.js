@@ -12,65 +12,71 @@ const about = () => {
   const [education, setEducation] = useState(false);
   const [experience, setExperience] = useState(false);
   return (
-    <div className="w-screen h-auto flex flex-col justify-between items-center lg:h-screen bg-bg">
+    <div className="w-screen h-auto flex item-center justify-between flex-col lg:h-screen bg-bg">
       <Navbar />
-      <div className="h-4/5  flex items-center justify-center my-8">
-        <div className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">
-          <div className="left w-full lg:w-1/2">
-            <h1 className="text-yellow mt-8 text-4xl md:text-left text-center md:text-7xl font-amiri font-bold mb-10">
-              About Me
-            </h1>
-            <div className="btns flex items-center justify-between text-center my-4 border border-lynch rounded-md">
-              <h1
-                className={`w-1/3  py-4 px-3 cursor-pointer ${
-                  overview ? "text-yellow" : "text-lynch"
-                } hover:text-text border-r border-lynch `}
-                onClick={() => {
-                  setOverview(true);
-                  setEducation(false);
-                  setExperience(false);
-                }}
-              >
-                Overview
+      <div>
+        <div className="w-4/5 xl:w-1170  mx-auto h-4/5">
+          <div className="flex items-center justify-between w-full flex-col lg:flex-row mx-auto">
+            <div className="w-full lg:w-1/4">
+              <h1 className="text-yellow mt-8 text-4xl lg:text-left text-center md:text-7xl font-amiri font-bold mb-10 whitespace-nowrap">
+                About Me
               </h1>
-              <h1
-                className={`
-              w-1/3 py-4 px-3 cursor-pointer border-r hover:text-text border-lynch ${
-                education ? "text-yellow" : "text-lynch"
-              }
+              <div className="btns flex items-center justify-between flex-col sm:flex-row lg:flex-col text-center my-4 rounded-md">
+                <h1
+                  className={`w-full  py-6 px-3 cursor-pointer ${
+                    overview ? "text-yellow" : "text-lynch"
+                  } hover:text-text border-b ${
+                    overview ? "border-b-2 border-yellow" : "border-secondary"
+                  }  `}
+                  onClick={() => {
+                    setOverview(true);
+                    setEducation(false);
+                    setExperience(false);
+                  }}
+                >
+                  Overview
+                </h1>
+                <h1
+                  className={`
+              w-full py-6 px-3 cursor-pointer border-b hover:text-text  ${
+                education ? "border-b-2 border-yellow" : "border-secondary"
+              } ${education ? "text-yellow" : "text-lynch"}
               `}
-                onClick={() => {
-                  setOverview(false);
-                  setEducation(true);
-                  setExperience(false);
-                }}
-              >
-                Education
-              </h1>
-              <h1
-                className={`w-1/3 py-4 px-3 cursor-pointer border-lynch hover:text-text  whitespace-nowrap ${
-                  experience ? "text-yellow" : "text-lynch"
-                }`}
-                onClick={() => {
-                  setOverview(false);
-                  setEducation(false);
-                  setExperience(true);
-                }}
-              >
-                Experiences
-              </h1>
+                  onClick={() => {
+                    setOverview(false);
+                    setEducation(true);
+                    setExperience(false);
+                  }}
+                >
+                  Education
+                </h1>
+                <h1
+                  className={`w-full py-6 px-3 cursor-pointer border-lynch hover:text-text  whitespace-nowrap border-b   ${
+                    experience ? "border-b-2 border-yellow" : "border-secondary"
+                  } ${experience ? "text-yellow" : "text-lynch"}`}
+                  onClick={() => {
+                    setOverview(false);
+                    setEducation(false);
+                    setExperience(true);
+                  }}
+                >
+                  Experiences
+                </h1>
+              </div>
             </div>
 
-            {overview && <Overview />}
-            {education && <Education />}
-            {experience && <Experience />}
+            <div className="w-full lg:w-3/5">
+              {overview && <Overview />}
+              {education && <Education />}
+              {experience && <Experience />}
+            </div>
           </div>
-          <div className="right w-full my-4 lg:w-2/5">
+          {/* <div className="right w-full my-4 lg:w-2/5">
             <Skills />
-          </div>
+          </div> */}
         </div>
-        {/* <Footer /> */}
       </div>
+      <Footer />
     </div>
   );
 };

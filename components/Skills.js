@@ -32,7 +32,7 @@ const Skills = () => {
         <h1 className="text-text text-xl font-nunito font-bold">
           Development Technologies I have been using
         </h1>
-        <ul className="grid grid-cols-1 sm:grid-cols-2">
+        <ul className="grid grid-cols-1 sm:grid-cols-3">
           {Development.map((front, idx) => (
             <li
               key={idx}
@@ -48,7 +48,7 @@ const Skills = () => {
         <h1 className="text-text text-xl font-nunito font-bold">
           UI Technologies I have been using
         </h1>
-        <ul className="grid  grid-cols-1 sm:grid-cols-2">
+        <ul className="grid  grid-cols-1 sm:grid-cols-3">
           {uis.map((ui, idx) => (
             <li key={idx} className="flex items-center">
               <BiBadgeCheck className="text-yellow" />

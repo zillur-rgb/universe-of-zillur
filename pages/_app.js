@@ -13,7 +13,7 @@ Router.events.on("routeChangeError", () => nprogress.done());
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className=" bg-bg">
+    <div className="bg-bg">
       <Component {...pageProps} />
     </div>
   );
