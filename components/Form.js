@@ -26,7 +26,7 @@ const Form = () => {
       );
   };
   return (
-    <form ref={form} onSubmit={sendEmail} className="md:w-3/4 w-3/5 mx-auto">
+    <form ref={form} onSubmit={sendEmail} className="w-full lg:w-3/5 mx-auto">
       <input
         type="text"
         placeholder="Fullname"
