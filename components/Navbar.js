@@ -30,7 +30,11 @@ const Navbar = () => {
       <div className="w-4/5 xl:w-1170 mx-auto bg-secondary py-5 flex items-center justify-between">
         <div className="flex items-center">
           <div className="mr-16">
-            <Image src={logo} alt="Logo" width="32px" height="50px" />
+            <Link href="/">
+              <a>
+                <Image src={logo} alt="Logo" width="32px" height="50px" />
+              </a>
+            </Link>
           </div>
 
           <div className="navmenu lg:block hidden">

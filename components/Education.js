@@ -8,7 +8,7 @@ const Education = () => {
         <p className="text-sm text-text font-light">
           Fachhochschule Südwestfalen
         </p>
-        <p className="text-lynch font-light mt-4">
+        <p className="text-lynch font-light mt-4 leading-7">
           I am studying there in my 3rd Semester. But since I am actively
           searching for fulltime job relevant to my skills and previous degree
           therefore I am planning to quitting the study.
@@ -21,7 +21,7 @@ const Education = () => {
         <p className="text-sm text-text font-light">
           North East University Bangladesh
         </p>
-        <p className="text-lynch font-light mt-4">
+        <p className="text-lynch font-light mt-4 leading-7">
           I have completed my bachelors in Computer Science and Engineering from
           my hoemcountry. Despite having programming skills from my previous
           bachelor, I find Web Development more interesting.

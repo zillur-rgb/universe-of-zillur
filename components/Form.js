@@ -31,19 +31,19 @@ const Form = () => {
         type="text"
         placeholder="Fullname"
         name="user_name"
-        className="px-5 py-4 rounded-lg focus:outline-yellow focus:outline-1 focus:border-none bg-secondary w-full border-lynch border my-4 text-white"
+        className="px-5 py-4 rounded-lg focus:outline-yellow focus:outline focus:border-none bg-secondary w-full border-lynch border my-2 text-white"
       />
       <br />
       <input
         type="email"
         placeholder="Email"
         name="user_email"
-        className="px-5 py-4 rounded-lg focus:outline-yellow focus:outline-1 focus:border-none text-white bg-secondary w-full border-lynch border my-4 caret-yellow"
+        className="px-5 py-4 rounded-lg focus:outline-yellow focus:outline focus:border-none text-white bg-secondary w-full border-lynch border my-2 caret-yellow"
       />
       <br />
       <textarea
         name="message"
-        className="px-5 py-4 rounded-lg focus:outline-yellow focus:outline-1 focus:border-none bg-secondary w-full border-lynch text-white border my-4 caret-yellow"
+        className="px-5 py-4 rounded-lg focus:outline-yellow focus:outline focus:border-none bg-secondary w-full border-lynch text-white border my-2 caret-yellow"
         rows="10"
         placeholder="Write your message here"
       ></textarea>

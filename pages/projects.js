@@ -1,6 +1,5 @@
 import Navbar from "../components/Navbar";
 import FrontendProject from "../components/FrontendProject";
-import { InfinitySpin } from "react-loader-spinner";
 import Footer from "../components/Footer";
 
 const projects = () => {
@@ -123,11 +122,11 @@ const projects = () => {
     },
   ];
   return (
-    <div className=" w-screen h-auto bg-bg relative">
+    <div className="w-screen h-auto bg-bg relative">
       <Navbar />
       <div className="h-5/6 flex items-center justify-between mt-20">
         <div className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col mb-32">
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {projectsArray.map((project) => (
               <FrontendProject project={project} key={project.title} />
             ))}

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Navbar from "../components/Navbar";
 import selfPic from "../assets/imgs/self.svg";
 import TypewriterComponent from "typewriter-effect";
-import Resume from "../components/Resume";
+import "../styles/Home.module.css";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -24,16 +24,16 @@ export default function Home() {
     ".",
   ];
   return (
-    <div className=" h-full bg-bg relative">
+    <div className=" h-auto lg:h-full bg-bg relative">
       {/* <Resume /> */}
       <Navbar />
-      <div className="h-3/4 flex items-center justify-center my-6">
+      <div className="h-3/4 flex items-center justify-center my-8">
         <main className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">
           <div className="left lg:text-left text-center">
-            <h1 className="title uppercase text-3xl lg:text-7xl font-amiri font-bold text-text animate__animated animate__fadeInLeft delay-1000">
+            <h1 className="title uppercase text-5xl lg:text-7xl font-amiri font-bold text-text animate__animated animate__fadeInLeft">
               hello!
             </h1>
-            <h1 className="title text-3xl lg:text-7xl font-amiri font-bold text-text  animate__animated animate__fadeInLeft animate__delay-0.3s">
+            <h1 className="title text-3xl md:text-5xl lg:text-7xl font-amiri font-bold text-text  animate__animated animate__fadeInLeft animate__delay-0.3s">
               {headerText.map((txt, idx) => {
                 return (
                   <span key={idx} className="hover:text-yellow">
@@ -42,7 +42,7 @@ export default function Home() {
                 );
               })}
             </h1>
-            <div className="text-yellow text-md lg:text-2xl mt-4 tracking-widest">
+            <div className="text-yellow text-md lg:text-2xl mt-4 tracking-widest  animate__animated animate__fadeInLeft">
               <TypewriterComponent
                 options={{
                   strings: [
@@ -57,12 +57,15 @@ export default function Home() {
                 }}
               />
             </div>
+            <button className="border px-4 py-3 rounded-tr-2xl hover:rounded-tr-none rounded-bl-2xl hover:rounded-bl-none hover:rounded-br-2xl hover:rounded-tl-2xl border-yellow text-yellow hover:bg-yellow hover:text-bg font-semibold duration-500 my-5  animate__animated animate__fadeInLeft">
+              Download My Resume
+            </button>
           </div>
-          <div className=" mt-4 right border-none lg:border-2 rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90 hover:rounded-tr-none hover:duration-500 hover:rounded-bl-none lg:w-2/5 w-2/5 flex items-center justify-center py-0 lg:py-5 mb-6">
+          <div className=" mt-4 right border-none lg:border-2 rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90 hover:rounded-tr-none duration-500 hover:rounded-bl-none lg:w-2/5 w-4/5 flex items-center justify-center py-0 lg:py-5 mb-6">
             <Image
               src={selfPic}
               alt="selfPic"
-              className=" rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90  hover:duration-500 hover:rounded-tr-none hover:rounded-bl-none animate__animated animate__fadeInRight delay-150"
+              className=" rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90  duration-500 hover:rounded-tr-none hover:rounded-bl-none animate__animated animate__fadeInRight delay-150"
             />
           </div>
         </main>

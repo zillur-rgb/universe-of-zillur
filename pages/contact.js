@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 const contact = () => {
   return (
-    <div className="lg:h-full h-auto bg-bg">
+    <div className="lg:h-screen h-auto bg-bg">
       <Navbar />
       <div className="h-4/5 flex items-center justify-center my-2">
         <main className="w-4/5 xl:w-1170 mx-auto flex items-center justify-between h-4/5 lg:flex-row flex-col">
