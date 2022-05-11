@@ -2,7 +2,7 @@ import React from "react";
 
 const Overview = () => {
   return (
-    <div className="animate__animated animate__zoomIn animate__delay-0.2s border-l-none lg:border-l border-secondary px-4 lg:px-16 py-4 lg:py-2">
+    <div className="animate__animated animate__fadeIn animate__delay-0.2s border-l-none lg:border-l border-secondary px-4 lg:px-16 py-4 lg:py-2">
       <p className="text-lynch leading-7 my-6">
         My name is MD Zillur Rahman and I am an ambitious Frontend Developer and
         an User Interface Designer based on Germany.

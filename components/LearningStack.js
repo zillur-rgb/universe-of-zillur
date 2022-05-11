@@ -10,7 +10,7 @@ const LearningStack = () => {
   ];
 
   return (
-    <div className="py-5 hover:translate-y-1 duration-300 px-10 my-4 bg-secondary rounded-2xl">
+    <div className="animate__animated animate__fadeIn py-5 hover:translate-y-1 duration-300 px-10 my-4 bg-secondary rounded-2xl">
       <ul className="grid  grid-cols-1 sm:grid-cols-2">
         {uis.map((ui, idx) => (
           <li key={idx} className="flex items-center">

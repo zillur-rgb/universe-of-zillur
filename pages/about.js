@@ -15,7 +15,7 @@ const about = () => {
       <div>
         <div className="w-4/5 xl:w-1170  mx-auto h-4/5">
           <div className="flex items-center justify-between w-full flex-col lg:flex-row mx-auto">
-            <div className="w-full lg:w-1/4">
+            <div className="w-full lg:w-1/4  animate__animated animate__fadeInLeft">
               <h1 className="text-yellow mt-8 text-4xl lg:text-left text-center md:text-7xl font-amiri font-bold mb-10 whitespace-nowrap">
                 About Me
               </h1>
@@ -65,7 +65,7 @@ const about = () => {
               </div>
             </div>
 
-            <div className="w-full lg:w-3/5">
+            <div className="w-full lg:w-3/5  ">
               {overview && <Overview />}
               {education && <Education />}
               {experience && <Experience />}

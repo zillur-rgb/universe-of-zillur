@@ -8,7 +8,7 @@ const FrontendProject = ({ project }) => {
 
   return (
     <>
-      <div className="w-full p-6 border border-lynch rounded-lg">
+      <div className="animate__animated animate__fadeIn w-full p-6 border border-lynch rounded-lg">
         <img src={project.image} alt="project img" />
         <h1 className="text-yellow text-lg font-medium my-7">
           {project.title}

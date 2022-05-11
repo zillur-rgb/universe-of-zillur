@@ -26,7 +26,11 @@ const Form = () => {
       );
   };
   return (
-    <form ref={form} onSubmit={sendEmail} className="w-full lg:w-3/5 mx-auto">
+    <form
+      ref={form}
+      onSubmit={sendEmail}
+      className="animate__animated animate__fadeIn w-full lg:w-3/5 mx-auto"
+    >
       <input
         type="text"
         placeholder="Fullname"

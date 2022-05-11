@@ -2,7 +2,7 @@ import React from "react";
 
 const Education = () => {
   return (
-    <div className="animate__animated animate__zoomIn animate__delay-0.2s border-l-none lg:border-l border-secondary px-4 lg:pl-16">
+    <div className="animate__animated animate__fadeIn  animate__delay-0.2s border-l-none lg:border-l border-secondary px-4 lg:pl-16">
       <div className="py-6 border-b border-secondary">
         <p className="text-white font-bold">BA in Business Informatics</p>
         <p className="text-sm text-text font-light">

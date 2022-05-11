@@ -11,7 +11,7 @@ const UISkills = () => {
   ];
 
   return (
-    <div className="py-5 px-10 my-4 bg-secondary rounded-2xl hover:translate-y-1 duration-300">
+    <div className="animate__animated animate__fadeIn py-5 px-10 my-4  bg-secondary rounded-2xl hover:translate-y-1 duration-300">
       <ul className="grid  grid-cols-1 sm:grid-cols-2">
         {uis.map((ui, idx) => (
           <li key={idx} className="flex items-center">
