@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Navbar from "../components/Navbar";
-import selfPic from "../assets/imgs/self.svg";
+import selfPic from "../assets/imgs/selfExtend.svg";
 import TypewriterComponent from "typewriter-effect";
 import "../styles/Home.module.css";
 import Footer from "../components/Footer";
@@ -65,17 +65,20 @@ export default function Home() {
               </a>
             </Link>
           </div>
-          <div className=" mt-4 right border-none lg:border-2 rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90 hover:rounded-tr-none duration-500 hover:rounded-bl-none lg:w-2/5 w-4/5 flex items-center justify-center py-0 lg:py-5 mb-6">
+          <div className=" border border-text mt-4 right border-none lg:border-2 rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90 hover:rounded-tr-none duration-500 hover:rounded-bl-none lg:w-2/5 w-4/5 flex items-center justify-center py-0 lg:py-5 mb-6">
             <Image
               src={selfPic}
               alt="selfPic"
-              className=" h-fit rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90  duration-500 hover:rounded-tr-none hover:rounded-bl-none animate__animated animate__fadeInRight delay-150"
+              className="border border-text h-fit rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90  duration-500 hover:rounded-tr-none hover:rounded-bl-none animate__animated animate__fadeInRight delay-150"
             />
           </div>
         </main>
       </div>
       <Link href="mailto:zillurdeu@gmail.com" className=" flex">
-        <a className="text-white hover:text-yellow font-semibold absolute bottom-20 right-5 lg:block hidden tracking-widest hover:translate-y-1 duration-300">
+        <a
+          className="text-white hover:text-yellow font-semibold absolute bottom-20 right-0 lg:block hidden hover:translate-y-1 duration-300 tracking-widest"
+          style={{ writingMode: "vertical-rl" }}
+        >
           zillurdeu@gmail.com
           <div className="border border-lynch hover:text-yellow text-lynch"></div>
         </a>
