@@ -11,11 +11,11 @@ import Link from "next/link";
 
 const contact = () => {
   return (
-    <div className="w-screen h-auto lg:h-screen flex flex-col items-center justify-between bg-bg">
+    <div className="w-screen h-auto lg:h-screen flex flex-col items-center justify-between bg-bg overflow-auto">
       <Navbar />
-      <div className="w-4/5 xl:w-1170">
-        <main className=" mx-auto h-4/5 my-8 left flex items-start justify-between flex-col lg:flex-row gap-24">
-          <div className="w-full lg:w-3/5 animate__animated animate__fadeIn ">
+      <div className="w-4/5 xl:w-1170  h-auto">
+        <main className=" mx-auto h-4/5 my-8 left flex items-start justify-between flex-col lg:flex-row gap-24 ">
+          <div className="w-full lg:w-3/5 animate__animated animate__fadeIn bg-bg">
             <h1 className="text-yellow text-4xl text-center lg:text-left md:text-7xl font-amiri font-bold my-4">
               Contact Me
             </h1>

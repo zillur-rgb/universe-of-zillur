@@ -4,7 +4,6 @@ const FrontendProject = ({ project }) => {
   const [showWhole, setShowWhole] = useState(false);
   const [showAll, setShowAll] = useState(false);
   const remaining = project.techs.length - 4;
-  console.log(project);
 
   return (
     <>

@@ -25,10 +25,10 @@ export default function Home() {
     ".",
   ];
   return (
-    <div className="w-screen h-auto lg:h-screen items-center justify-between bg-bg flex flex-col">
+    <div className="w-screen h-auto lg:h-screen items-center justify-between bg-bg flex flex-col overflow-auto">
       <Navbar />
-      <div className=" w-4/5 xl:w-1170 mx-auto ">
-        <main className="my-8 flex items-center justify-between h-4/5 lg:flex-row flex-col">
+      <div className=" w-4/5 xl:w-1170 mx-auto">
+        <main className="my-8 flex items-center justify-between h-auto lg:flex-row flex-col">
           <div className="left lg:text-left text-center">
             <h1 className="title uppercase text-5xl lg:text-7xl font-amiri font-bold text-text animate__animated animate__fadeInLeft">
               hello!
@@ -69,7 +69,7 @@ export default function Home() {
             <Image
               src={selfPic}
               alt="selfPic"
-              className=" rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90  duration-500 hover:rounded-tr-none hover:rounded-bl-none animate__animated animate__fadeInRight delay-150"
+              className=" h-fit rounded-tr-3xl lg:rounded-tr-90 rounded-bl-3xl lg:rounded-bl-90 hover:rounded-tl-3xl lg:hover:rounded-tl-90 hover:rounded-br-3xl lg:hover:rounded-br-90  duration-500 hover:rounded-tr-none hover:rounded-bl-none animate__animated animate__fadeInRight delay-150"
             />
           </div>
         </main>

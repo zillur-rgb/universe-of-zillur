@@ -10,7 +10,7 @@ const about = () => {
   const [education, setEducation] = useState(false);
   const [experience, setExperience] = useState(false);
   return (
-    <div className="w-screen h-auto flex item-center justify-between flex-col lg:h-screen bg-bg">
+    <div className="w-screen overflow-auto h-auto flex item-center justify-between flex-col lg:h-screen bg-bg">
       <Navbar />
       <div>
         <div className="w-4/5 xl:w-1170  mx-auto h-4/5">
