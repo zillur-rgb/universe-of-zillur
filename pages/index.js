@@ -57,7 +57,7 @@ export default function Home() {
                 }}
               />
             </div>
-            <Link href="https://drive.google.com/file/d/1CwTd99uokDaeGFwrUGllcHQUCWvSCy24/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/1wwKOw6EbN0DcCzoLUkM1m831CIskyNQu/view?usp=sharing">
               <a target="_blank">
                 <button className="border px-4 py-3 rounded-tr-2xl hover:rounded-tr-none rounded-bl-2xl hover:rounded-bl-none hover:rounded-br-2xl hover:rounded-tl-2xl border-yellow text-yellow hover:bg-yellow hover:text-bg font-semibold duration-500 my-5  animate__animated animate__fadeInLeft">
                   Download My Resume
@@ -76,7 +76,7 @@ export default function Home() {
       </div>
       <Link href="mailto:zillurdeu@gmail.com" className=" flex">
         <a
-          className="text-white hover:text-yellow font-semibold absolute bottom-20 right-0 lg:block hidden hover:translate-y-1 duration-300 tracking-widest"
+          className="text-white hover:text-yellow font-semibold absolute bottom-20 right-10 lg:block hidden hover:translate-y-1 duration-300 tracking-widest"
           style={{ writingMode: "vertical-rl" }}
         >
           zillurdeu@gmail.com
