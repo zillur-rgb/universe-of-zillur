@@ -22,8 +22,8 @@ const contact = () => {
 
             <p className="w-4/5 mx-auto lg:w-full text-center lg:text-left text-lynch mb-4 leading-7">
               I am looking for a job opportunity to utilize my skills. I am a
-              fast learner and I am ready to relocate. Please have a look at my
-              work and contact me if you think I am a good fit.
+              fast learner andready to relocate. I would be grateful if you take
+              a look at my work and contact me if you think I am a good fit.
             </p>
             <div className="w-full flex items-center lg:items-start justify-center lg:justify-between">
               <Link href="https://drive.google.com/file/d/1McXmeaSrdlWXi-LgIHl7P1Vawxvy6kKx/view?usp=sharing">

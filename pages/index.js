@@ -46,9 +46,9 @@ export default function Home() {
               <TypewriterComponent
                 options={{
                   strings: [
-                    "Frontend Developer",
+                    "Frontend Engineer",
                     "Technology Enthusiastic",
-                    "Audiobook Freak",
+                    "Audiobook Lover",
                   ],
                   autoStart: true,
                   loop: true,
