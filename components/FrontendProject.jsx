@@ -8,10 +8,12 @@ const FrontendProject = ({ project }) => {
   return (
     <>
       <div className="animate__animated animate__fadeIn w-full p-6 border border-lynch rounded-lg">
-        <img src={project.image} alt="project img" />
-        <h1 className="text-yellow text-lg font-medium my-7">
-          {project.title}
-        </h1>
+        <a href={project.live}>
+          <img src={project.image} alt="project img" />
+          <h1 className="text-yellow text-lg font-medium my-7">
+            {project.title}
+          </h1>
+        </a>
         <div className=" border-b my-5 border-lynch opacity-30"></div>
         <div className="flex justify-between flex-col sm:flex-row my-5">
           <a

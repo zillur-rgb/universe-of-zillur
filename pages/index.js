@@ -36,28 +36,27 @@ export default function Home() {
             <h1 className="title text-3xl md:text-5xl lg:text-7xl font-amiri font-bold text-text  animate__animated animate__fadeInLeft animate__delay-0.3s">
               {headerText.map((txt, idx) => {
                 return (
-                  <span key={idx} className="hover:text-yellow">
+                  <span key={idx} className="hover:text-yellow text-text">
                     {txt}
                   </span>
                 );
               })}
             </h1>
-            <div className="text-yellow text-md lg:text-2xl mt-4 tracking-widest  animate__animated animate__fadeInLeft">
+            <div className="text-md lg:text-2xl mt-4 tracking-widest  animate__animated animate__fadeInLeft text-lynch">
               <TypewriterComponent
                 options={{
                   strings: [
                     "Frontend Developer",
-                    "User Interface Designer",
-                    "Problem Solver",
+                    "Technology Enthusiastic",
                     "Audiobook Freak",
                   ],
                   autoStart: true,
                   loop: true,
-                  delay: 100,
+                  delay: 50,
                 }}
               />
             </div>
-            <Link href="https://drive.google.com/file/d/1wwKOw6EbN0DcCzoLUkM1m831CIskyNQu/view?usp=sharing">
+            <Link href="https://drive.google.com/file/d/1McXmeaSrdlWXi-LgIHl7P1Vawxvy6kKx/view?usp=sharing">
               <a target="_blank">
                 <button className="border px-4 py-3 rounded-tr-2xl hover:rounded-tr-none rounded-bl-2xl hover:rounded-bl-none hover:rounded-br-2xl hover:rounded-tl-2xl border-yellow text-yellow hover:bg-yellow hover:text-bg font-semibold duration-500 my-5  animate__animated animate__fadeInLeft">
                   Download My Resume

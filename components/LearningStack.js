@@ -1,13 +1,6 @@
 import { BiBadgeCheck } from "react-icons/bi";
 const LearningStack = () => {
-  const uis = [
-    "TypeScript",
-    "NextJS",
-    "PostgreSQL",
-    "Redux",
-    "GraphQL",
-    "Sketch App",
-  ];
+  const uis = ["TypeScript", "PostgreSQL", "Redux", "GraphQL", "Sketch App"];
 
   return (
     <div className="animate__animated animate__fadeIn py-5 hover:translate-y-1 duration-300 px-10 my-4 bg-secondary rounded-2xl">

@@ -5,6 +5,26 @@ import Footer from "../components/Footer";
 const projects = () => {
   const projectsArray = [
     {
+      title: "Doctor Portal - Solution for All Problems",
+      image: "https://i.ibb.co/qDTxFgj/Frame-Doctor.png",
+      live: "https://doctor-portal-cfc7c.web.app/",
+      githubClient: "https://github.com/zillur-rgb/doctor-portal",
+      githubServer: "https://github.com/zillur-rgb/doctor-portal-server",
+      techs: [
+        "Figma",
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB",
+        "Firebase Auth",
+        "TailwindCSS",
+        "Daisy UI",
+        "Heroku",
+        "Jsonwebtoken",
+      ],
+      desc: "The task is to create a portal for doctors and patients where patients will be able to book appointment and also can check their schedule. First time I have implemented admin also I have added an extra level of seciruty using JWT",
+    },
+    {
       title: "Invoice Master - A Invoice Management App",
       image:
         "https://i.ibb.co/wKS4zKB/6ea69d6f-cb38-4327-a5dc-50c2318b0edd.jpg",

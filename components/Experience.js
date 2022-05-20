@@ -17,7 +17,7 @@ const Experience = () => {
           was mainly to find out the bug and also write plain css.
         </p>
       </div>
-      <div className="pt-4 pb-6 border-b border-secondary">
+      {/* <div className="pt-4 pb-6 border-b border-secondary">
         <div className="title flex items-center justify-between">
           <div className="">
             <p className="text-white font-bold">User Interface Designer</p>
@@ -30,7 +30,7 @@ const Experience = () => {
           I served the company with my skill of User Interface. Where I along
           with a UX designer implemented some user and eye-catching interfaces.
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

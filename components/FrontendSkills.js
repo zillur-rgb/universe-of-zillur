@@ -5,16 +5,17 @@ const FrontendSkills = () => {
     "JavaScript(ES7)",
     "ReactJs",
     "NextJs",
-    "NodeJs",
-    "ExpressJs",
-    "MongoDB",
-    "Mongoose",
     "Tailwind CSS",
     "Styled Components",
+    "Chakra UI",
+    "Bootstrap",
     "Jest",
-    "Firebase Auth",
+    "Firebase Authentication",
     "SASS",
     "Heroku",
+    "Figma",
+    "Adobe XD",
+    "Adobe Photoshop",
   ];
 
   return (
