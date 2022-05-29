@@ -26,7 +26,7 @@ const contact = () => {
               a look at my work and contact me if you think I am a good fit.
             </p>
             <div className="w-full flex items-center lg:items-start justify-center lg:justify-between">
-              <Link href="https://drive.google.com/file/d/1McXmeaSrdlWXi-LgIHl7P1Vawxvy6kKx/view?usp=sharing">
+              <Link href="https://drive.google.com/file/d/1aAw2BRY9PVwv7pQPFzndOmaYOl-Y5m3v/view?usp=sharing">
                 <a target="_blank">
                   <button className="border w-auto px-4 py-3 rounded-tr-2xl hover:rounded-tr-none rounded-bl-2xl hover:rounded-bl-none hover:rounded-br-2xl hover:rounded-tl-2xl border-yellow text-yellow hover:bg-yellow hover:text-bg font-semibold duration-500 my-5">
                     Download My Resume

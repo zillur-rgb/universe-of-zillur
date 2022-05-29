@@ -12,8 +12,8 @@ const Experience = () => {
           <p className="text-lynch">Feb 2021 - Jun 2021</p>
         </div>
         <p className="text-lynch font-light leading-7 mt-4">
-          When I was learning frontend technologies, I found an opportunity to
-          work as an intern JavaScript developer in my previous company. My task
+          I had the privilege to work in one of the leading IT Firms in my city,
+          I did my intersnhip there as a JavaScript and React developer. My task
           was mainly to find out the bug and also write plain css.
         </p>
       </div>

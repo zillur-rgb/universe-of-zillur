@@ -7,6 +7,7 @@ const BackendTech = () => {
     "MongoDB",
     "Mongoose",
     "REST API",
+    "Json Web Token",
   ];
 
   return (
