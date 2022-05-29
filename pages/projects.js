@@ -46,6 +46,25 @@ const projects = () => {
       ],
       desc: "The task is mainly to create a system where user will be able to manage invoice for their client. User will be able to create, delete or update their invoice. User must login to use the system and also to keep the data.",
     },
+    {
+      title: "Wheel Wave - Inventory Management Website",
+      image: "https://i.ibb.co/cNCT20N/Frame-12.png",
+      live: "https://wheel-wave.web.app/",
+      githubClient: "https://github.com/zillur-rgb/wheel-wave-client",
+      githubServer: "https://github.com/zillur-rgb/wheel-wave-server",
+      techs: [
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "Mongoose",
+        "Firebase Auth",
+        "TailwindCSS",
+        "Figma",
+        "Heroku",
+        "Jsonwebtoken",
+      ],
+      desc: "Wheel Wave is a 3rd party cycle supplier who sells cycle of other companies. So this website is mainly for suppliers who can manage their products from the app.",
+    },
 
     {
       title: "Flexytrips - A Website for Tour Agency.",
