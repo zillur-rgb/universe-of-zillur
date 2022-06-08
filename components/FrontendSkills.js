@@ -2,6 +2,7 @@ import { BiBadgeCheck } from "react-icons/bi";
 
 const FrontendSkills = () => {
   const Development = [
+    "TypeScript",
     "JavaScript(ES7)",
     "ReactJs",
     "NextJs",

@@ -73,12 +73,12 @@ export default function Home() {
           </div>
         </main>
       </div>
-      <Link href="mailto:zillurdeu@gmail.com" className=" flex">
+      <Link href="mailto:rahman.mdzillur007@gmail.com" className=" flex">
         <a
           className="text-white hover:text-yellow font-semibold absolute bottom-20 right-10 lg:block hidden hover:translate-y-1 duration-300 tracking-widest"
           style={{ writingMode: "vertical-rl" }}
         >
-          zillurdeu@gmail.com
+          rahman.mdzillur007@gmail.com
           <div className="border border-lynch hover:text-yellow text-lynch"></div>
         </a>
       </Link>
