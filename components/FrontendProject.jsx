@@ -55,11 +55,11 @@ const FrontendProject = ({ project }) => {
           </span>
         </p>
         <div className=" border-b my-3 border-lynch opacity-30"></div>
-        <div className="grid grid-cols-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {showAll
             ? project.techs.map((tech, idx) => (
                 <p
-                  className="text-lynch whitespace-nowrap   text-center border-lynch m-2"
+                  className="text-lynch whitespace-nowrap text-left  lg:text-center border-lynch m-2"
                   key={idx}
                 >
                   {tech}
