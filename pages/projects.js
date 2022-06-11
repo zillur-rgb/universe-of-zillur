@@ -6,7 +6,11 @@ const projects = () => {
   const projectsArray = [
     {
       title: "Sawland - The Land of Saws",
-      image: "https://i.ibb.co/D57SWPW/sawland.png",
+      image: [
+        "https://i.ibb.co/D57SWPW/sawland.png",
+        "https://i.ibb.co/XJYyhJj/sawland-3.png",
+        "https://i.ibb.co/BsmRg5J/sawland-2.png",
+      ],
       live: "https://sawland-e5251.web.app/",
       githubClient: "https://github.com/zillur-rgb/sawland-client",
       githubServer: "https://github.com/zillur-rgb/sawland-server",
@@ -27,8 +31,11 @@ const projects = () => {
     },
     {
       title: "Invoice Master - A Invoice Management App",
-      image:
+      image: [
         "https://i.ibb.co/wKS4zKB/6ea69d6f-cb38-4327-a5dc-50c2318b0edd.jpg",
+        "https://i.ibb.co/QnKyZRj/IM-2.png",
+        "https://i.ibb.co/Qp2tsP4/IM-3.png",
+      ],
       live: "https://invoice-master-10e23.web.app/",
       githubClient: "https://github.com/zillur-rgb/Invoice-Master-Client",
       githubServer: "https://github.com/zillur-rgb/Invoice-App",
@@ -48,7 +55,10 @@ const projects = () => {
     },
     {
       title: "Wheel Wave - Inventory Management Website",
-      image: "https://i.ibb.co/cNCT20N/Frame-12.png",
+      image: [
+        "https://i.ibb.co/cNCT20N/Frame-12.png",
+        "https://i.ibb.co/zbjHTQK/wheel-wave-2.png",
+      ],
       live: "https://wheel-wave.web.app/",
       githubClient: "https://github.com/zillur-rgb/wheel-wave-client",
       githubServer: "https://github.com/zillur-rgb/wheel-wave-server",
@@ -68,7 +78,10 @@ const projects = () => {
 
     {
       title: "Flexytrips - A Website for Tour Agency.",
-      image: "https://i.ibb.co/XXHxR1j/Frame-2.png",
+      image: [
+        "https://i.ibb.co/XXHxR1j/Frame-2.png",
+        "https://i.ibb.co/X4CXqRn/flexytrips-3.png",
+      ],
       live: "https://flexytrips.web.app/",
       githubClient: "https://github.com/zillur-rgb/flexytrips-client",
       githubServer: "https://github.com/zillur-rgb/flexytrips-server",
@@ -88,7 +101,7 @@ const projects = () => {
     },
     {
       title: "Audiophile - A shop for Gadget Lovers",
-      image: "https://i.ibb.co/zJQvJ5t/Frame-5.png",
+      image: ["https://i.ibb.co/zJQvJ5t/Frame-5.png"],
       live: "https://fabulous-melba-86f75b.netlify.app/",
       githubClient: "https://github.com/zillur-rgb/Audiophile",
       techs: ["ReactJS", "Tailwind CSS", "Netlify"],
@@ -96,7 +109,7 @@ const projects = () => {
     },
     {
       title: "Notes App with TypeScript.",
-      image: "https://i.ibb.co/kHR6KW5/Frame-7.png",
+      image: ["https://i.ibb.co/kHR6KW5/Frame-7.png"],
       live: "https://silly-kulfi-eba079.netlify.app/",
       githubClient: "https://github.com/zillur-rgb/notes-app-react-typescript",
       techs: ["ReactJS", "TypeScript", "Netlify", "Bootstrap 5"],
@@ -104,7 +117,7 @@ const projects = () => {
     },
     {
       title: "Recipe App",
-      image: "https://i.ibb.co/tpF7grM/Frame-9.png",
+      image: ["https://i.ibb.co/tpF7grM/Frame-9.png"],
       live: "https://storied-starlight-7f24e7.netlify.app/",
       githubClient: "https://github.com/zillur-rgb/Recipe-App",
       techs: ["ReactJS", "Styled Components", "Netlify", "API", "Bootstrap 5"],
@@ -112,7 +125,7 @@ const projects = () => {
     },
     {
       title: "Rock Paper Scissor game",
-      image: "https://i.ibb.co/2PLqKPR/Frame-11.png",
+      image: ["https://i.ibb.co/2PLqKPR/Frame-11.png"],
       live: "https://zillur-rgb.github.io/rock-paper-scissor/",
       githubClient: "https://github.com/zillur-rgb/rock-paper-scissor",
       techs: ["JavaScript", "CSS"],
@@ -120,7 +133,7 @@ const projects = () => {
     },
     {
       title: "Resume App",
-      image: "https://i.ibb.co/tpJXmdZ/Frame-6.png",
+      image: ["https://i.ibb.co/tpJXmdZ/Frame-6.png"],
       live: "https://effortless-medovik-dc044c.netlify.app/",
       githubClient: "https://github.com/zillur-rgb/resume-app",
       techs: ["ReactJS", "Styled Components", "Material UI"],
@@ -128,7 +141,7 @@ const projects = () => {
     },
     {
       title: "Money Master",
-      image: "https://i.ibb.co/GJmrNJ7/Frame-4.png",
+      image: ["https://i.ibb.co/GJmrNJ7/Frame-4.png"],
       live: "https://zillur-rgb.github.io/money-master/",
       githubClient: "https://github.com/zillur-rgb/resume-app",
       techs: ["JavaScript", "Bootstrap 5"],
@@ -136,7 +149,7 @@ const projects = () => {
     },
     {
       title: "Zillflix - A Movie App",
-      image: "https://i.ibb.co/XscBSGZ/Frame-8.png",
+      image: ["https://i.ibb.co/XscBSGZ/Frame-8.png"],
       live: "https://delicate-stardust-b57c15.netlify.app/",
       githubClient: "https://github.com/zillur-rgb/zillflix-A-movie-app",
       techs: ["ReactJS", "Tailwind CSS", "Daisy UI", "API"],

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Carousel from "./Carousel";
 
 const FrontendProject = ({ project }) => {
   const [showWhole, setShowWhole] = useState(false);
@@ -9,7 +10,8 @@ const FrontendProject = ({ project }) => {
     <>
       <div className="animate__animated animate__fadeIn w-full p-6 border border-lynch rounded-lg">
         <a href={project.live}>
-          <img src={project.image} alt="project img" />
+          {/* <img src={project.image} alt="project img" /> */}
+          <Carousel image={project?.image} />
           <h1 className="text-yellow text-lg font-medium my-7">
             {project.title}
           </h1>
