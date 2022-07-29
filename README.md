@@ -19,7 +19,7 @@ The task was to create my portfolio website and start learning next js.
 ### Links
 
 - Github Link: [https://github.com/zillur-rgb/universe-of-zillur](https://github.com/zillur-rgb/universe-of-zillur)
-- Live URL: [https://zillurrahman.netlify.app/](https://zillurrahman.netlify.app/)
+- Live URL: [https://mdzillurrahman.netlify.app/](https://mdzillurrahman.netlify.app/)
 
 ### Built with
 
